@@ -18,8 +18,7 @@ namespace ConsoleApp1
             process.Start();
 
             var consoleOutput = process.StandardOutput;
-
-
+            
             var assemblyList = new List<string>();
             var startAdding = false;
             while (consoleOutput.EndOfStream == false)
